@@ -16,8 +16,8 @@
  --><meta name='robots' content='max-image-preview:large' />
 <noscript><style>#preloader{display:none;}</style></noscript><link rel='dns-prefetch' href='http://stats.wp.com/' />
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-<link rel="alternate" type="application/rss+xml" title="Calheiros em Curitiba &raquo; Feed" href="../feed/https://calhascuritiba.com.br" />
-<link rel="alternate" type="application/rss+xml" title="Calheiros em Curitiba &raquo; Comments Feed" href="../comments/feed/https://calhascuritiba.com.br" />
+<link rel="alternate" type="application/rss+xml" title="Roofix - Roofing Company WordPress Theme &raquo; Feed" href="../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Roofix - Roofing Company WordPress Theme &raquo; Comments Feed" href="../comments/feed/index.html" />
 <script>
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
@@ -92,7 +92,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
 	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
 </script>
-
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/regenerator-runtime.min6c85.js?ver=0.14.0" id="regenerator-runtime-js"></script>
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
@@ -165,10 +167,10 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
 <script type="text/javascript" src="../wp-content/themes/roofix/assets/js/jquery.magnific-popup.mine1fc.js?ver=2.1.1" id="jquery-magnific-popup-js"></script>
 <script type="text/javascript" src="../wp-content/themes/roofix/assets/js/slick.mine1fc.js?ver=2.1.1" id="slick-js"></script>
 <script type="text/javascript" src="../wp-content/themes/roofix/assets/js/jquery.countdown.mine1fc.js?ver=2.1.1" id="countdown-js"></script>
-<link rel="https://api.w.org/" href="../wp-json/https://calhascuritiba.com.br" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/3453.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/3453.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
 <meta name="generator" content="WordPress 6.4.3" />
 <meta name="generator" content="WooCommerce 8.5.2" />
-<link rel="canonical" href="https://calhascuritiba.com.br" />
+<link rel="canonical" href="index.html" />
 <link rel='shortlink' href='../index5916.html?p=3453' />
 <link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed4d6e.json?url=https%3A%2F%2Fradiustheme.com%2Fdemo%2Fwordpress%2Fthemes%2Froofix%2Fhome-4-one-page%2F" />
 <link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed06ba?url=https%3A%2F%2Fradiustheme.com%2Fdemo%2Fwordpress%2Fthemes%2Froofix%2Fhome-4-one-page%2F&amp;format=xml" />
@@ -598,9 +600,9 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
             
 		</style>
 
-		<link rel="stylesheet" href="whatsapp.css">
+		<!--/ Customizer CSS-->
         	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	
+	<meta name="generator" content="Elementor 3.19.0; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
 <meta name="generator" content="Powered by Slider Revolution 6.6.14 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <script>function setREVStartSize(e){
 			//window.requestAnimationFrame(function() {
@@ -660,7 +662,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
             <a class="skip-link screen-reader-text" href="content">
                 Skip to content</a>
                 
-    <a href="https://wa.me/5541995211923" class="zap-glass" target="_blank" aria-label="Fale com um advogado"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp"></a><div class="zap-msg-bubble">💬 Precisa de calhas ou serviços com telhado?<br><strong>Fale conosco agora mesmo!</strong></strong></div><header id="masthead" class="site-header header">
+    <header id="masthead" class="site-header header">
         <div id="sticky-placeholder"></div>
         <div id="mobile-header-topbar" class="mobile-header-topbar">
 	<div class="container-fluid">
@@ -685,19 +687,19 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
 						 
 											                   
 							 <li class="social-icon">
-																	<a target="_blank" href="../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../index.html">
 										<i class="fab fa-facebook-f"></i>
 									</a>
-																	<a target="_blank" href="../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../index.html">
 										<i class="fab fa-twitter"></i>
 									</a>
-																	<a target="_blank" href="../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../index.html">
 										<i class="fab fa-youtube"></i>
 									</a>
-																	<a target="_blank" href="../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../index.html">
 										<i class="fab fa-pinterest"></i>
 									</a>
-																	<a target="_blank" href="../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../index.html">
 										<i class="fab fa-instagram"></i>
 									</a>
 								                    
@@ -715,9 +717,9 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
         <div id="mobile-sticky-placeholder"></div>
 <div class="rt-header-menu mean-container" id="meanmenu">
     <div class="mean-bar" id="mobile-menu-bar-wrap">
-    	<a href="../https://calhascuritiba.com.br"><img fetchpriority="high" width="489" height="121" class="logo-small" alt="Calheiros em Curitiba" src="../wp-content/themes/roofix/assets/img/logo-dark.png"></a>
+    	<a href="../index.html"><img fetchpriority="high" width="489" height="121" class="logo-small" alt="Roofix - Roofing Company WordPress Theme" src="../wp-content/themes/roofix/assets/img/logo-dark.png"></a>
 
-				     <a class="header-btn-new mobile-btn" href="../contato" title="Book Schedule Now">Book Schedule Now</a>
+				     <a class="header-btn-new mobile-btn" href="../contact/index.html" title="Book Schedule Now">Book Schedule Now</a>
 		
         <span class="sidebarBtn ">
             <span class="fa fa-bars">
@@ -745,10 +747,10 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
         <div class="header-wrap no-gutter">
             <div class="primary-bg-brind" style="background-image:url(../wp-content/themes/roofix/assets/img/logo-bg.png)">
                 <div class="site-branding">
-                    <a class="dark-logo" href="../https://calhascuritiba.com.br">
-                        <img width="489" height="121" alt="Calheiros em Curitiba" src="../wp-content/themes/roofix/assets/img/logo-dark.png">                    </a>
-					<a class="light-logo" href="../https://calhascuritiba.com.br">
-                        <img width="489" height="121" alt="Calheiros em Curitiba" src="../wp-content/themes/roofix/assets/img/logo-icon-light.png">                    </a>
+                    <a class="dark-logo" href="../index.html">
+                        <img width="489" height="121" alt="Roofix - Roofing Company WordPress Theme" src="../wp-content/themes/roofix/assets/img/logo-dark.png">                    </a>
+					<a class="light-logo" href="../index.html">
+                        <img width="489" height="121" alt="Roofix - Roofing Company WordPress Theme" src="../wp-content/themes/roofix/assets/img/logo-icon-light.png">                    </a>
                 </div>
             </div>
 			<div class="d-flex justify-content-start mobile-padding-left-15px">
@@ -765,7 +767,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
 			<div class="d-flex justify-content-end">
 				<ul class="header5-icon-right">
                               <li class="cart-icon p-left"><div class="cart-icon-area">
-	<a href="../cart/https://calhascuritiba.com.br" ><i class="fas fa-shopping-cart" aria-hidden="true"></i><span class="cart-icon-num">0</span></a>
+	<a href="../cart/index.html" ><i class="fas fa-shopping-cart" aria-hidden="true"></i><span class="cart-icon-num">0</span></a>
 	<div class="cart-icon-products">
 		<div class="widget woocommerce widget_shopping_cart"><h2 class="widgettitle">Cart</h2><div class="widget_shopping_cart_content"></div></div>	</div>
 </div>
@@ -778,7 +780,7 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
 					<li>
 						
    
-     <a class="header-btn-new item-btn" href="../contato" title="Book Schedule Now">
+     <a class="header-btn-new item-btn" href="../contact/index.html" title="Book Schedule Now">
      	<span class="far fa-file-alt"> &nbsp;</span> Book Schedule Now     </a>
 					</li>
 				</ul>
@@ -793,8 +795,8 @@ var wc_single_product_params = {"i18n_required_rating_text":"Please select a rat
    <div class="offcanvas-content">
         <div class="offcanvas-content-wrp">
             <div class="sidebar-about">
-               <a class="dark-logo" href="../https://calhascuritiba.com.br">
-                  <img loading="lazy" width="489" height="121" alt="Calheiros em Curitiba" src="../wp-content/themes/roofix/assets/img/logo-dark-2x.png">                </a>
+               <a class="dark-logo" href="../index.html">
+                  <img loading="lazy" width="489" height="121" alt="Roofix - Roofing Company WordPress Theme" src="../wp-content/themes/roofix/assets/img/logo-dark-2x.png">                </a>
             </div>
             <div class="offscreen-navigation">
                 <nav class="menu-home-4-onepage-container"><ul id="menu-home-4-onepage-2" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3493"><a href="sec-top">Home</a></li>
@@ -817,19 +819,19 @@ New York 2021</span>
 
                                      <h3 class="sub-off-title">Follow Us</h3>
                  <div class="social-icon-off">
-                                            <a target="_blank" href="../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../index.html">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                                            <a target="_blank" href="../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../index.html">
                             <i class="fab fa-twitter"></i>
                         </a>
-                                            <a target="_blank" href="../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../index.html">
                             <i class="fab fa-youtube"></i>
                         </a>
-                                            <a target="_blank" href="../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../index.html">
                             <i class="fab fa-pinterest"></i>
                         </a>
-                                            <a target="_blank" href="../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../index.html">
                             <i class="fab fa-instagram"></i>
                         </a>
                                     </div>
@@ -1811,14 +1813,14 @@ Project Done Faster </h2>
 					<div class="project-box-img">
 													<img loading="lazy" decoding="async" width="475" height="460" src="../wp-content/uploads/2020/11/roof_1-475x460.jpg" class="attachment-roofix-size-3 size-roofix-size-3 wp-post-image" alt="" srcset="https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_1-475x460.jpg 475w, https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_1-230x224.jpg 230w" sizes="(max-width: 475px) 100vw, 475px" />												<div class="item-content">
 							<div class="item-subtitle">   
-        <a href="../troca-de-telhados-telhas-em-curitiba">Factory</a> 
+        <a href="../projects-cat/factory/index.html">Factory</a> 
        <span>,</span>
        
-        <a href="../troca-de-telhados-telhas-em-curitiba">Residential</a> 
+        <a href="../projects-cat/residential/index.html">Residential</a> 
        <span></span>
     </div>
-							<h3 class="item-title"><a href="../projects/roof-construction-9/https://calhascuritiba.com.br">Roof Construction</a></h3>
-													        <a href="../projects/roof-construction-9/https://calhascuritiba.com.br" class="item-btn"><i class="fas fa-plus"></i></a>
+							<h3 class="item-title"><a href="../projects/roof-construction-9/index.html">Roof Construction</a></h3>
+													        <a href="../projects/roof-construction-9/index.html" class="item-btn"><i class="fas fa-plus"></i></a>
 						    						</div>
 					</div>
 				</div>
@@ -1828,14 +1830,14 @@ Project Done Faster </h2>
 					<div class="project-box-img">
 													<img loading="lazy" decoding="async" width="475" height="460" src="../wp-content/uploads/2020/11/roof_6-475x460.jpg" class="attachment-roofix-size-3 size-roofix-size-3 wp-post-image" alt="" srcset="https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_6-475x460.jpg 475w, https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_6-230x224.jpg 230w" sizes="(max-width: 475px) 100vw, 475px" />												<div class="item-content">
 							<div class="item-subtitle">   
-        <a href="../chamines-em-curitiba">Commercial</a> 
+        <a href="../projects-cat/commercial/index.html">Commercial</a> 
        <span>,</span>
        
-        <a href="../troca-de-telhados-telhas-em-curitiba">Factory</a> 
+        <a href="../projects-cat/factory/index.html">Factory</a> 
        <span></span>
     </div>
-							<h3 class="item-title"><a href="../projects/roof-construction-11/https://calhascuritiba.com.br">Roof Construction</a></h3>
-													        <a href="../projects/roof-construction-11/https://calhascuritiba.com.br" class="item-btn"><i class="fas fa-plus"></i></a>
+							<h3 class="item-title"><a href="../projects/roof-construction-11/index.html">Roof Construction</a></h3>
+													        <a href="../projects/roof-construction-11/index.html" class="item-btn"><i class="fas fa-plus"></i></a>
 						    						</div>
 					</div>
 				</div>
@@ -1845,14 +1847,14 @@ Project Done Faster </h2>
 					<div class="project-box-img">
 													<img loading="lazy" decoding="async" width="475" height="460" src="../wp-content/uploads/2020/11/roof_3-475x460.jpg" class="attachment-roofix-size-3 size-roofix-size-3 wp-post-image" alt="" srcset="https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_3-475x460.jpg 475w, https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_3-230x224.jpg 230w" sizes="(max-width: 475px) 100vw, 475px" />												<div class="item-content">
 							<div class="item-subtitle">   
-        <a href="../chamines-em-curitiba">Commercial</a> 
+        <a href="../projects-cat/commercial/index.html">Commercial</a> 
        <span>,</span>
        
-        <a href="../troca-de-telhados-telhas-em-curitiba">Residential</a> 
+        <a href="../projects-cat/residential/index.html">Residential</a> 
        <span></span>
     </div>
-							<h3 class="item-title"><a href="../projects/modern-roofing/https://calhascuritiba.com.br">Modern Roofing</a></h3>
-													        <a href="../projects/modern-roofing/https://calhascuritiba.com.br" class="item-btn"><i class="fas fa-plus"></i></a>
+							<h3 class="item-title"><a href="../projects/modern-roofing/index.html">Modern Roofing</a></h3>
+													        <a href="../projects/modern-roofing/index.html" class="item-btn"><i class="fas fa-plus"></i></a>
 						    						</div>
 					</div>
 				</div>
@@ -1862,17 +1864,17 @@ Project Done Faster </h2>
 					<div class="project-box-img">
 													<img loading="lazy" decoding="async" width="475" height="460" src="../wp-content/uploads/2020/11/roof_5-475x460.jpg" class="attachment-roofix-size-3 size-roofix-size-3 wp-post-image" alt="" srcset="https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_5-475x460.jpg 475w, https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_5-230x224.jpg 230w" sizes="(max-width: 475px) 100vw, 475px" />												<div class="item-content">
 							<div class="item-subtitle">   
-        <a href="../chamines-em-curitiba">Commercial</a> 
+        <a href="../projects-cat/commercial/index.html">Commercial</a> 
        <span>,</span>
        
-        <a href="../troca-de-telhados-telhas-em-curitiba">Factory</a> 
+        <a href="../projects-cat/factory/index.html">Factory</a> 
        <span>,</span>
        
-        <a href="../troca-de-telhados-telhas-em-curitiba">Residential</a> 
+        <a href="../projects-cat/residential/index.html">Residential</a> 
        <span></span>
     </div>
-							<h3 class="item-title"><a href="../projects/roof-construction-5/https://calhascuritiba.com.br">Renovation Roof</a></h3>
-													        <a href="../projects/roof-construction-5/https://calhascuritiba.com.br" class="item-btn"><i class="fas fa-plus"></i></a>
+							<h3 class="item-title"><a href="../projects/roof-construction-5/index.html">Renovation Roof</a></h3>
+													        <a href="../projects/roof-construction-5/index.html" class="item-btn"><i class="fas fa-plus"></i></a>
 						    						</div>
 					</div>
 				</div>
@@ -1882,14 +1884,14 @@ Project Done Faster </h2>
 					<div class="project-box-img">
 													<img loading="lazy" decoding="async" width="475" height="460" src="../wp-content/uploads/2020/11/roof_7-1-475x460.jpg" class="attachment-roofix-size-3 size-roofix-size-3 wp-post-image" alt="" srcset="https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_7-1-475x460.jpg 475w, https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_7-1-230x224.jpg 230w" sizes="(max-width: 475px) 100vw, 475px" />												<div class="item-content">
 							<div class="item-subtitle">   
-        <a href="../rufos-em-curitiba">Interior</a> 
+        <a href="../projects-cat/interior/index.html">Interior</a> 
        <span>,</span>
        
-        <a href="../troca-de-telhados-telhas-em-curitiba">Residential</a> 
+        <a href="../projects-cat/residential/index.html">Residential</a> 
        <span></span>
     </div>
-							<h3 class="item-title"><a href="../projects/classic-roofing/https://calhascuritiba.com.br">Classic Roofing</a></h3>
-													        <a href="../projects/classic-roofing/https://calhascuritiba.com.br" class="item-btn"><i class="fas fa-plus"></i></a>
+							<h3 class="item-title"><a href="../projects/classic-roofing/index.html">Classic Roofing</a></h3>
+													        <a href="../projects/classic-roofing/index.html" class="item-btn"><i class="fas fa-plus"></i></a>
 						    						</div>
 					</div>
 				</div>
@@ -1899,14 +1901,14 @@ Project Done Faster </h2>
 					<div class="project-box-img">
 													<img loading="lazy" decoding="async" width="475" height="460" src="../wp-content/uploads/2020/11/roof_2-475x460.jpg" class="attachment-roofix-size-3 size-roofix-size-3 wp-post-image" alt="" srcset="https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_2-475x460.jpg 475w, https://radiustheme.com/demo/wordpress/themes/roofix/wp-content/uploads/2020/11/roof_2-230x224.jpg 230w" sizes="(max-width: 475px) 100vw, 475px" />												<div class="item-content">
 							<div class="item-subtitle">   
-        <a href="../rufos-em-curitiba">Interior</a> 
+        <a href="../projects-cat/interior/index.html">Interior</a> 
        <span>,</span>
        
-        <a href="../troca-de-telhados-telhas-em-curitiba">Residential</a> 
+        <a href="../projects-cat/residential/index.html">Residential</a> 
        <span></span>
     </div>
-							<h3 class="item-title"><a href="../projects/repair-roof/https://calhascuritiba.com.br">Repair Roof</a></h3>
-													        <a href="../projects/repair-roof/https://calhascuritiba.com.br" class="item-btn"><i class="fas fa-plus"></i></a>
+							<h3 class="item-title"><a href="../projects/repair-roof/index.html">Repair Roof</a></h3>
+													        <a href="../projects/repair-roof/index.html" class="item-btn"><i class="fas fa-plus"></i></a>
 						    						</div>
 					</div>
 				</div>
@@ -2431,7 +2433,7 @@ electronic typesetting, remaining essentially unchanged.</p>
 								
 			<div class="blog-box-wrp rtin-item post-each col-lg-4 col-md-6 col-sm-12 col-12">		
 							<div class="entry-thumbnail-area">
-					<a href="../10-reason-why-roofing-are-factmake-easier-10/https://calhascuritiba.com.br" rel="bookmark">
+					<a href="../10-reason-why-roofing-are-factmake-easier-10/index.html" rel="bookmark">
 						<img loading="lazy" decoding="async" width="520" height="350" src="../wp-content/uploads/2020/11/roof_12-520x350.jpg" class="attachment-roofix-size-6 size-roofix-size-6 wp-post-image" alt="" />								
 					</a>
 				</div>
@@ -2441,10 +2443,10 @@ electronic typesetting, remaining essentially unchanged.</p>
 					<ul class="entry-meta-1">
 													<li><span class="updated published"> <i class="far fa-calendar-alt" aria-hidden="true"></i>  November 18, 2020</span></li>
 							
-													<li><span class="vcard author"><i class="fa fa-user" aria-hidden="true"></i> <a href="../calhas-em-curitiba" title="Posts by RadiusTheme" rel="author">RadiusTheme</a></span></li>
+													<li><span class="vcard author"><i class="fa fa-user" aria-hidden="true"></i> <a href="../author/radius-theme/index.html" title="Posts by RadiusTheme" rel="author">RadiusTheme</a></span></li>
 							
 					</ul>
-										<h3 class="item-title"><a href="../10-reason-why-roofing-are-factmake-easier-10/https://calhascuritiba.com.br" class="entry-title" rel="bookmark">Why Roofing are factmake 10 Reason Easier</a></h3>			
+										<h3 class="item-title"><a href="../10-reason-why-roofing-are-factmake-easier-10/index.html" class="entry-title" rel="bookmark">Why Roofing are factmake 10 Reason Easier</a></h3>			
 				</div>
 								<div class="entry-content">
 					 <p class='item-content-p'>Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook&hellip;</p>					
@@ -2454,7 +2456,7 @@ electronic typesetting, remaining essentially unchanged.</p>
 							
 			<div class="blog-box-wrp rtin-item post-each col-lg-4 col-md-6 col-sm-12 col-12">		
 							<div class="entry-thumbnail-area">
-					<a href="../10-reason-why-roofing-are-factmake-easier-4/https://calhascuritiba.com.br" rel="bookmark">
+					<a href="../10-reason-why-roofing-are-factmake-easier-4/index.html" rel="bookmark">
 						<img loading="lazy" decoding="async" width="520" height="350" src="../wp-content/uploads/2020/11/roof_7-1-520x350.jpg" class="attachment-roofix-size-6 size-roofix-size-6 wp-post-image" alt="" />								
 					</a>
 				</div>
@@ -2464,10 +2466,10 @@ electronic typesetting, remaining essentially unchanged.</p>
 					<ul class="entry-meta-1">
 													<li><span class="updated published"> <i class="far fa-calendar-alt" aria-hidden="true"></i>  November 13, 2020</span></li>
 							
-													<li><span class="vcard author"><i class="fa fa-user" aria-hidden="true"></i> <a href="../calhas-em-curitiba" title="Posts by RadiusTheme" rel="author">RadiusTheme</a></span></li>
+													<li><span class="vcard author"><i class="fa fa-user" aria-hidden="true"></i> <a href="../author/radius-theme/index.html" title="Posts by RadiusTheme" rel="author">RadiusTheme</a></span></li>
 							
 					</ul>
-										<h3 class="item-title"><a href="../10-reason-why-roofing-are-factmake-easier-4/https://calhascuritiba.com.br" class="entry-title" rel="bookmark">Roofing are fact make Easier 10 Reason</a></h3>			
+										<h3 class="item-title"><a href="../10-reason-why-roofing-are-factmake-easier-4/index.html" class="entry-title" rel="bookmark">Roofing are fact make Easier 10 Reason</a></h3>			
 				</div>
 								<div class="entry-content">
 					 <p class='item-content-p'>Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook&hellip;</p>					
@@ -2477,7 +2479,7 @@ electronic typesetting, remaining essentially unchanged.</p>
 							
 			<div class="blog-box-wrp rtin-item post-each col-lg-4 col-md-6 col-sm-12 col-12">		
 							<div class="entry-thumbnail-area">
-					<a href="../10-reason-why-roofing-are-factmake-easier-5/https://calhascuritiba.com.br" rel="bookmark">
+					<a href="../10-reason-why-roofing-are-factmake-easier-5/index.html" rel="bookmark">
 						<img loading="lazy" decoding="async" width="520" height="350" src="../wp-content/uploads/2020/11/roof_3-520x350.jpg" class="attachment-roofix-size-6 size-roofix-size-6 wp-post-image" alt="" />								
 					</a>
 				</div>
@@ -2487,10 +2489,10 @@ electronic typesetting, remaining essentially unchanged.</p>
 					<ul class="entry-meta-1">
 													<li><span class="updated published"> <i class="far fa-calendar-alt" aria-hidden="true"></i>  November 13, 2020</span></li>
 							
-													<li><span class="vcard author"><i class="fa fa-user" aria-hidden="true"></i> <a href="../calhas-em-curitiba" title="Posts by RadiusTheme" rel="author">RadiusTheme</a></span></li>
+													<li><span class="vcard author"><i class="fa fa-user" aria-hidden="true"></i> <a href="../author/radius-theme/index.html" title="Posts by RadiusTheme" rel="author">RadiusTheme</a></span></li>
 							
 					</ul>
-										<h3 class="item-title"><a href="../10-reason-why-roofing-are-factmake-easier-5/https://calhascuritiba.com.br" class="entry-title" rel="bookmark">Reason Why Roofing are factmake Easier</a></h3>			
+										<h3 class="item-title"><a href="../10-reason-why-roofing-are-factmake-easier-5/index.html" class="entry-title" rel="bookmark">Reason Why Roofing are factmake Easier</a></h3>			
 				</div>
 								<div class="entry-content">
 					 <p class='item-content-p'>Roof ake type specimen book survived notte five centurieslso the leapinto electronic are when anunknown print theyaery ook&hellip;</p>					
@@ -2511,7 +2513,7 @@ electronic typesetting, remaining essentially unchanged.</p>
 	        <div class="container">
 				<div class="row d-flex align-items-center footer-logo-wrp">
 					<div class="col-lg-4 col-md-6">
-						<a class="footer-logo" href="../https://calhascuritiba.com.br">
+						<a class="footer-logo" href="../index.html">
 						<img loading="lazy" width="489" height="121" src="../wp-content/uploads/2021/01/footer-logo.png" class="attachment-full size-full" alt="" />						</a>	
 					</div>
 					<div class="col-lg-4 col-md-6 ">
@@ -2530,27 +2532,27 @@ electronic typesetting, remaining essentially unchanged.</p>
 						<div class="footer-social">
 						    <ul>					    	
 																	<li>
-										<a target="_blank" href="../https://calhascuritiba.com.br">
+										<a target="_blank" href="../index.html">
 											<i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../https://calhascuritiba.com.br">
+										<a target="_blank" href="../index.html">
 											<i class="fab fa-twitter"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../https://calhascuritiba.com.br">
+										<a target="_blank" href="../index.html">
 											<i class="fab fa-youtube"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../https://calhascuritiba.com.br">
+										<a target="_blank" href="../index.html">
 											<i class="fab fa-pinterest"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../https://calhascuritiba.com.br">
+										<a target="_blank" href="../index.html">
 											<i class="fab fa-instagram"></i>
 										</a>
 									</li>
@@ -2566,12 +2568,12 @@ electronic typesetting, remaining essentially unchanged.</p>
 	              <div class="row">
 											
 						<div class="col-lg-4 col-md-4 active_footer">
-							<div id="nav_menu-3" class="widgets footer-box-layout1 widget_nav_menu"><div class="footer-title"><h3 class="widget-title ">Our Services</h3></div><div class="menu-our-services-container"><ul id="menu-our-services" class="menu"><li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-428"><a href="../services/damage-roofing/https://calhascuritiba.com.br">Damage Roofing</a></li>
-<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-423"><a href="../cantoneiras-em-curitiba">Cantoneiras</a></li>
-<li id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-425"><a href="../calhas-em-curitiba">Roof Repair</a></li>
-<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-426"><a href="../services/roof-installation/https://calhascuritiba.com.br">Roof Installation</a></li>
-<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-427"><a href="../reparo-de-calhas-em-curitiba">Roof Renovation</a></li>
-<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-430"><a href="../services/roof-animation/https://calhascuritiba.com.br">Roof Animation</a></li>
+							<div id="nav_menu-3" class="widgets footer-box-layout1 widget_nav_menu"><div class="footer-title"><h3 class="widget-title ">Our Services</h3></div><div class="menu-our-services-container"><ul id="menu-our-services" class="menu"><li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-428"><a href="../services/damage-roofing/index.html">Damage Roofing</a></li>
+<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-423"><a href="../services/siding-corner-8/index.html">Siding Corner</a></li>
+<li id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-425"><a href="../services/roof-repair/index.html">Roof Repair</a></li>
+<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-426"><a href="../services/roof-installation/index.html">Roof Installation</a></li>
+<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-427"><a href="../services/roof-renovation/index.html">Roof Renovation</a></li>
+<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-430"><a href="../services/roof-animation/index.html">Roof Animation</a></li>
 </ul></div></div>						</div>
 						<div class="col-lg-5 col-md-4 active_footer">
 							<div id="mc4wp_form_widget-3" class="widgets footer-box-layout1 widget_mc4wp_form_widget"><div class="footer-title"><h3 class="widget-title ">Newsletter</h3></div><script>(function() {
@@ -2814,7 +2816,7 @@ window.lodash = _.noConflict();
 <script type="text/javascript" src="../wp-includes/js/dist/api-fetch.min471f.js?ver=0fa4dabf8bf2c7adf21a" id="wp-api-fetch-js"></script>
 <script type="text/javascript" id="wp-api-fetch-js-after">
 /* <![CDATA[ */
-wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "../wp-json/https://calhascuritiba.com.br" ) );
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "../wp-json/index.html" ) );
 wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "8999bd30bf" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );

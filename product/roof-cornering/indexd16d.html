@@ -14,11 +14,11 @@
 <!--    
      <a class="header-btn-new mobile-btn" href="https://radiustheme.com/demo/wordpress/themes/roofix/contact/" title="Book Schedule Now">Book Schedule Now</a>
  --><meta name='robots' content='max-image-preview:large' />
-<meta property="og:url" content="https://calhascuritiba.com.br" /><meta property="og:type" content="article" /><meta property="og:title" content="Roof Cornering" /><meta property="og:image" content="../../wp-content/uploads/2021/02/product9.png" /><meta property="og:site_name" content="Calheiros em Curitiba" /><meta name="twitter:card" content="summary" /><noscript><style>#preloader{display:none;}</style></noscript><link rel='dns-prefetch' href='http://stats.wp.com/' />
+<meta property="og:url" content="index.html" /><meta property="og:type" content="article" /><meta property="og:title" content="Roof Cornering" /><meta property="og:image" content="../../wp-content/uploads/2021/02/product9.png" /><meta property="og:site_name" content="Roofix - Roofing Company WordPress Theme" /><meta name="twitter:card" content="summary" /><noscript><style>#preloader{display:none;}</style></noscript><link rel='dns-prefetch' href='http://stats.wp.com/' />
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-<link rel="alternate" type="application/rss+xml" title="Calheiros em Curitiba &raquo; Feed" href="../../feed/https://calhascuritiba.com.br" />
-<link rel="alternate" type="application/rss+xml" title="Calheiros em Curitiba &raquo; Comments Feed" href="../../comments/feed/https://calhascuritiba.com.br" />
-<link rel="alternate" type="application/rss+xml" title="Calheiros em Curitiba &raquo; Roof Cornering Comments Feed" href="feed/https://calhascuritiba.com.br" />
+<link rel="alternate" type="application/rss+xml" title="Roofix - Roofing Company WordPress Theme &raquo; Feed" href="../../feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Roofix - Roofing Company WordPress Theme &raquo; Comments Feed" href="../../comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Roofix - Roofing Company WordPress Theme &raquo; Roof Cornering Comments Feed" href="feed/index.html" />
 <script>
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
@@ -89,7 +89,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
 	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
 </script>
-
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.</p>
+</script>
 <script type="text/javascript" src="../../wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
 <script type="text/javascript" src="../../wp-includes/js/dist/vendor/regenerator-runtime.min6c85.js?ver=0.14.0" id="regenerator-runtime-js"></script>
 <script type="text/javascript" src="../../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0" id="wp-polyfill-js"></script>
@@ -163,10 +165,10 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
 <script type="text/javascript" src="../../wp-content/themes/roofix/assets/js/jquery.magnific-popup.mine1fc.js?ver=2.1.1" id="jquery-magnific-popup-js"></script>
 <script type="text/javascript" src="../../wp-content/themes/roofix/assets/js/slick.mine1fc.js?ver=2.1.1" id="slick-js"></script>
 <script type="text/javascript" src="../../wp-content/themes/roofix/assets/js/jquery.countdown.mine1fc.js?ver=2.1.1" id="countdown-js"></script>
-<link rel="https://api.w.org/" href="../../wp-json/https://calhascuritiba.com.br" /><link rel="alternate" type="application/json" href="../../wp-json/wp/v2/product/3256.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
+<link rel="https://api.w.org/" href="../../wp-json/index.html" /><link rel="alternate" type="application/json" href="../../wp-json/wp/v2/product/3256.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
 <meta name="generator" content="WordPress 6.4.3" />
 <meta name="generator" content="WooCommerce 8.5.2" />
-<link rel="canonical" href="https://calhascuritiba.com.br" />
+<link rel="canonical" href="index.html" />
 <link rel='shortlink' href='../../index3b9b.html?p=3256' />
 <link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed9f43.json?url=https%3A%2F%2Fradiustheme.com%2Fdemo%2Fwordpress%2Fthemes%2Froofix%2Fproduct%2Froof-cornering%2F" />
 <link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed04de?url=https%3A%2F%2Fradiustheme.com%2Fdemo%2Fwordpress%2Fthemes%2Froofix%2Fproduct%2Froof-cornering%2F&amp;format=xml" />
@@ -596,9 +598,9 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
             
 		</style>
 
-		<link rel="stylesheet" href="whatsapp.css">
+		<!--/ Customizer CSS-->
         	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	
+	<meta name="generator" content="Elementor 3.19.0; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
 </head>
 
 <body class="product-template-default single single-product postid-3256 wp-embed-responsive theme-roofix woocommerce woocommerce-page woocommerce-no-js rtsb-shopbuilder-plugin rtsb_theme_roofix non-stick has-sticky-menu header-style-2 trheader cartoff no-sidebar product-grid-view elementor-default elementor-kit-1">
@@ -608,7 +610,7 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
             <a class="skip-link screen-reader-text" href="content">
                 Skip to content</a>
                 
-    <a href="https://wa.me/5541995211923" class="zap-glass" target="_blank" aria-label="Fale com um advogado"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp"></a><div class="zap-msg-bubble">💬 Precisa de calhas ou serviços com telhado?<br><strong>Fale conosco agora mesmo!</strong></strong></div><header id="masthead" class="site-header header">
+    <header id="masthead" class="site-header header">
         <div id="sticky-placeholder"></div>
         <div id="mobile-header-topbar" class="mobile-header-topbar">
 	<div class="container-fluid">
@@ -633,19 +635,19 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
 						 
 											                   
 							 <li class="social-icon">
-																	<a target="_blank" href="../../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../../index.html">
 										<i class="fab fa-facebook-f"></i>
 									</a>
-																	<a target="_blank" href="../../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../../index.html">
 										<i class="fab fa-twitter"></i>
 									</a>
-																	<a target="_blank" href="../../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../../index.html">
 										<i class="fab fa-youtube"></i>
 									</a>
-																	<a target="_blank" href="../../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../../index.html">
 										<i class="fab fa-pinterest"></i>
 									</a>
-																	<a target="_blank" href="../../https://calhascuritiba.com.br">
+																	<a target="_blank" href="../../index.html">
 										<i class="fab fa-instagram"></i>
 									</a>
 								                    
@@ -680,11 +682,11 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
 				</div>
 				<div class="tophead-right header-social-layout1">
 											<ul class="tophead-social">
-															<li><a target="_blank" href="../../https://calhascuritiba.com.br"><i class="fab fa-facebook-f"></i></a></li>
-															<li><a target="_blank" href="../../https://calhascuritiba.com.br"><i class="fab fa-twitter"></i></a></li>
-															<li><a target="_blank" href="../../https://calhascuritiba.com.br"><i class="fab fa-youtube"></i></a></li>
-															<li><a target="_blank" href="../../https://calhascuritiba.com.br"><i class="fab fa-pinterest"></i></a></li>
-															<li><a target="_blank" href="../../https://calhascuritiba.com.br"><i class="fab fa-instagram"></i></a></li>
+															<li><a target="_blank" href="../../index.html"><i class="fab fa-facebook-f"></i></a></li>
+															<li><a target="_blank" href="../../index.html"><i class="fab fa-twitter"></i></a></li>
+															<li><a target="_blank" href="../../index.html"><i class="fab fa-youtube"></i></a></li>
+															<li><a target="_blank" href="../../index.html"><i class="fab fa-pinterest"></i></a></li>
+															<li><a target="_blank" href="../../index.html"><i class="fab fa-instagram"></i></a></li>
 												
 						</ul>						
 									</div>
@@ -696,9 +698,9 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
         <div id="mobile-sticky-placeholder"></div>
 <div class="rt-header-menu mean-container" id="meanmenu">
     <div class="mean-bar" id="mobile-menu-bar-wrap">
-    	<a href="../../https://calhascuritiba.com.br"><img fetchpriority="high" width="489" height="121" class="logo-small" alt="Calheiros em Curitiba" src="../../wp-content/themes/roofix/assets/img/logo-dark.png"></a>
+    	<a href="../../index.html"><img fetchpriority="high" width="489" height="121" class="logo-small" alt="Roofix - Roofing Company WordPress Theme" src="../../wp-content/themes/roofix/assets/img/logo-dark.png"></a>
 
-				     <a class="header-btn-new mobile-btn" href="../../contato" title="Book Schedule Now">Book Schedule Now</a>
+				     <a class="header-btn-new mobile-btn" href="../../contact/index.html" title="Book Schedule Now">Book Schedule Now</a>
 		
         <span class="sidebarBtn ">
             <span class="fa fa-bars">
@@ -709,99 +711,99 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
 
     <div class="rt-slide-nav">
         <div class="offscreen-navigation">
-            <nav class="menu-main-primary-container"><ul id="menu-main-primary" class="menu"><li id="menu-item-26" class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-26"><a href="../../https://calhascuritiba.com.br">Home</a>
+            <nav class="menu-main-primary-container"><ul id="menu-main-primary" class="menu"><li id="menu-item-26" class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-26"><a href="../../index.html">Home</a>
 <ul class="sub-menu">
 	<li id="menu-item-3910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3910"><a href="#">Multipage</a>
 	<ul class="sub-menu">
-		<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="../../https://calhascuritiba.com.br">Home 01</a></li>
-		<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="../../home2/https://calhascuritiba.com.br">Home 02</a></li>
-		<li id="menu-item-3162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3162"><a href="../../home3/https://calhascuritiba.com.br">Home 03</a></li>
-		<li id="menu-item-3437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="../../home4/https://calhascuritiba.com.br">Home 04</a></li>
-		<li id="menu-item-3913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3913"><a href="../../home5/https://calhascuritiba.com.br">Home 05</a></li>
-		<li id="menu-item-4156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href="../../home6/https://calhascuritiba.com.br">Home 06</a></li>
-		<li id="menu-item-4257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4257"><a href="../../home7/https://calhascuritiba.com.br">Home 07</a></li>
+		<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="../../index.html">Home 01</a></li>
+		<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="../../home2/index.html">Home 02</a></li>
+		<li id="menu-item-3162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3162"><a href="../../home3/index.html">Home 03</a></li>
+		<li id="menu-item-3437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="../../home4/index.html">Home 04</a></li>
+		<li id="menu-item-3913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3913"><a href="../../home5/index.html">Home 05</a></li>
+		<li id="menu-item-4156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href="../../home6/index.html">Home 06</a></li>
+		<li id="menu-item-4257" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4257"><a href="../../home7/index.html">Home 07</a></li>
 	</ul>
 </li>
 	<li id="menu-item-3911" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3911"><a href="#">Onepage</a>
 	<ul class="sub-menu">
-		<li id="menu-item-3503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3503"><a href="../../home-1-one-page/https://calhascuritiba.com.br">Home 1 (One Page)</a></li>
-		<li id="menu-item-3502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="../../home-2-one-page/https://calhascuritiba.com.br">Home 2 (One Page)</a></li>
-		<li id="menu-item-3501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="../../home-3-one-page/https://calhascuritiba.com.br">Home 3 (One Page)</a></li>
-		<li id="menu-item-3500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="../../home-4-one-page/https://calhascuritiba.com.br">Home 4 (One Page)</a></li>
-		<li id="menu-item-3912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3912"><a href="../../home-5-one-page/https://calhascuritiba.com.br">Home 5 (One Page)</a></li>
-		<li id="menu-item-4155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4155"><a href="../../home-6-one-page/https://calhascuritiba.com.br">Home 6 (One Page)</a></li>
-		<li id="menu-item-4256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4256"><a href="../../home-7-one-page/https://calhascuritiba.com.br">Home 7 (One Page)</a></li>
+		<li id="menu-item-3503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3503"><a href="../../home-1-one-page/index.html">Home 1 (One Page)</a></li>
+		<li id="menu-item-3502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="../../home-2-one-page/index.html">Home 2 (One Page)</a></li>
+		<li id="menu-item-3501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="../../home-3-one-page/index.html">Home 3 (One Page)</a></li>
+		<li id="menu-item-3500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="../../home-4-one-page/index.html">Home 4 (One Page)</a></li>
+		<li id="menu-item-3912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3912"><a href="../../home-5-one-page/index.html">Home 5 (One Page)</a></li>
+		<li id="menu-item-4155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4155"><a href="../../home-6-one-page/index.html">Home 6 (One Page)</a></li>
+		<li id="menu-item-4256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4256"><a href="../../home-7-one-page/index.html">Home 7 (One Page)</a></li>
 	</ul>
 </li>
 </ul>
 </li>
-<li id="menu-item-726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="../../about/https://calhascuritiba.com.br">About</a></li>
+<li id="menu-item-726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="../../about/index.html">About</a></li>
 <li id="menu-item-727" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-727"><a href="#">Pages</a>
 <ul class="sub-menu">
-	<li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="../../faq/https://calhascuritiba.com.br">Faq</a></li>
-	<li id="menu-item-4009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4009"><a href="../../rt-slider/https://calhascuritiba.com.br">RT Slider</a></li>
+	<li id="menu-item-725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="../../faq/index.html">Faq</a></li>
+	<li id="menu-item-4009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4009"><a href="../../rt-slider/index.html">RT Slider</a></li>
 	<li id="menu-item-3360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3360"><a href="#">Shop</a>
 	<ul class="sub-menu">
-		<li id="menu-item-3363" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3363"><a href="../../shop/https://calhascuritiba.com.br">Shop</a></li>
-		<li id="menu-item-3362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3362"><a href="../../cart/https://calhascuritiba.com.br">Cart</a></li>
-		<li id="menu-item-3361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3361"><a href="../../checkout/https://calhascuritiba.com.br">Checkout</a></li>
-		<li id="menu-item-3364" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3364"><a href="../roof-damage-repair-2/https://calhascuritiba.com.br">Single Product</a></li>
+		<li id="menu-item-3363" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3363"><a href="../../shop/index.html">Shop</a></li>
+		<li id="menu-item-3362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3362"><a href="../../cart/index.html">Cart</a></li>
+		<li id="menu-item-3361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3361"><a href="../../checkout/index.html">Checkout</a></li>
+		<li id="menu-item-3364" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3364"><a href="../roof-damage-repair-2/index.html">Single Product</a></li>
 	</ul>
 </li>
 	<li id="menu-item-3353" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3353"><a href="#">Info Box</a>
 	<ul class="sub-menu">
-		<li id="menu-item-3359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3359"><a href="../../info-box-1/https://calhascuritiba.com.br">Info Box 01</a></li>
-		<li id="menu-item-3358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3358"><a href="../../info-box-2/https://calhascuritiba.com.br">Info Box 02</a></li>
-		<li id="menu-item-3357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3357"><a href="../../info-box-3/https://calhascuritiba.com.br">Info Box 03</a></li>
-		<li id="menu-item-3998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3998"><a href="../../info-box-4/https://calhascuritiba.com.br">Info Box 04</a></li>
+		<li id="menu-item-3359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3359"><a href="../../info-box-1/index.html">Info Box 01</a></li>
+		<li id="menu-item-3358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3358"><a href="../../info-box-2/index.html">Info Box 02</a></li>
+		<li id="menu-item-3357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3357"><a href="../../info-box-3/index.html">Info Box 03</a></li>
+		<li id="menu-item-3998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3998"><a href="../../info-box-4/index.html">Info Box 04</a></li>
 	</ul>
 </li>
 	<li id="menu-item-3298" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3298"><a href="#">Team Layout</a>
 	<ul class="sub-menu">
-		<li id="menu-item-536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536"><a href="../../team-layout-1/https://calhascuritiba.com.br">Team Layout 01</a></li>
-		<li id="menu-item-3296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296"><a href="../../team-layout-2/https://calhascuritiba.com.br">Team Layout 02</a></li>
-		<li id="menu-item-3980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3980"><a href="../../team-layout-3/https://calhascuritiba.com.br">Team Layout 03</a></li>
-		<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-roofix_team menu-item-544"><a href="../../team/mark-rocket/https://calhascuritiba.com.br">Team Single</a></li>
+		<li id="menu-item-536" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536"><a href="../../team-layout-1/index.html">Team Layout 01</a></li>
+		<li id="menu-item-3296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296"><a href="../../team-layout-2/index.html">Team Layout 02</a></li>
+		<li id="menu-item-3980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3980"><a href="../../team-layout-3/index.html">Team Layout 03</a></li>
+		<li id="menu-item-544" class="menu-item menu-item-type-post_type menu-item-object-roofix_team menu-item-544"><a href="../../team/mark-rocket/index.html">Team Single</a></li>
 	</ul>
 </li>
 	<li id="menu-item-3297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3297"><a href="#">Project Layout</a>
 	<ul class="sub-menu">
-		<li id="menu-item-515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="../../projects1/https://calhascuritiba.com.br">Project Layout 01</a></li>
-		<li id="menu-item-514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"><a href="../../projects-2/https://calhascuritiba.com.br">Project Layout 02</a></li>
-		<li id="menu-item-3295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3295"><a href="../../projects-3/https://calhascuritiba.com.br">Project Layout 03</a></li>
-		<li id="menu-item-3294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3294"><a href="../../projects-4/https://calhascuritiba.com.br">Project Layout  04</a></li>
-		<li id="menu-item-3992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3992"><a href="../../projects-5/https://calhascuritiba.com.br">Project Layout  05</a></li>
-		<li id="menu-item-518" class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-518"><a href="../../projects/roof-construction-9/https://calhascuritiba.com.br">Project Single 01</a></li>
-		<li id="menu-item-519" class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-519"><a href="../../projects/roof-construction-11/https://calhascuritiba.com.br">Project Single 02</a></li>
+		<li id="menu-item-515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="../../projects1/index.html">Project Layout 01</a></li>
+		<li id="menu-item-514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"><a href="../../projects-2/index.html">Project Layout 02</a></li>
+		<li id="menu-item-3295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3295"><a href="../../projects-3/index.html">Project Layout 03</a></li>
+		<li id="menu-item-3294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3294"><a href="../../projects-4/index.html">Project Layout  04</a></li>
+		<li id="menu-item-3992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3992"><a href="../../projects-5/index.html">Project Layout  05</a></li>
+		<li id="menu-item-518" class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-518"><a href="../../projects/roof-construction-9/index.html">Project Single 01</a></li>
+		<li id="menu-item-519" class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-519"><a href="../../projects/roof-construction-11/index.html">Project Single 02</a></li>
 	</ul>
 </li>
 	<li id="menu-item-3352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3352"><a href="#">Testimonial</a>
 	<ul class="sub-menu">
-		<li id="menu-item-3356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3356"><a href="../../testimonial-1/https://calhascuritiba.com.br">Testimonial 01</a></li>
-		<li id="menu-item-3355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3355"><a href="../../testimonial-2/https://calhascuritiba.com.br">Testimonial 02</a></li>
-		<li id="menu-item-3354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3354"><a href="../../testimonial-3/https://calhascuritiba.com.br">Testimonial 03</a></li>
-		<li id="menu-item-3949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3949"><a href="../../testimonial-4/https://calhascuritiba.com.br">Testimonial 04</a></li>
-		<li id="menu-item-3948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3948"><a href="../../testimonial-5/https://calhascuritiba.com.br">Testimonial 05</a></li>
+		<li id="menu-item-3356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3356"><a href="../../testimonial-1/index.html">Testimonial 01</a></li>
+		<li id="menu-item-3355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3355"><a href="../../testimonial-2/index.html">Testimonial 02</a></li>
+		<li id="menu-item-3354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3354"><a href="../../testimonial-3/index.html">Testimonial 03</a></li>
+		<li id="menu-item-3949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3949"><a href="../../testimonial-4/index.html">Testimonial 04</a></li>
+		<li id="menu-item-3948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3948"><a href="../../testimonial-5/index.html">Testimonial 05</a></li>
 	</ul>
 </li>
 </ul>
 </li>
 <li id="menu-item-458" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-458"><a href="#">Services</a>
 <ul class="sub-menu">
-	<li id="menu-item-473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473"><a href="../../services-one/https://calhascuritiba.com.br">Services 01</a></li>
-	<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="../../services-2/https://calhascuritiba.com.br">Services 02</a></li>
-	<li id="menu-item-481" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-481"><a href="../../services/siding-corner-8/https://calhascuritiba.com.br">Service Details 01</a></li>
-	<li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-482"><a href="../../reparo-de-calhas-em-curitiba">Service Details 02</a></li>
+	<li id="menu-item-473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473"><a href="../../services-one/index.html">Services 01</a></li>
+	<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="../../services-2/index.html">Services 02</a></li>
+	<li id="menu-item-481" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-481"><a href="../../services/siding-corner-8/index.html">Service Details 01</a></li>
+	<li id="menu-item-482" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-482"><a href="../../services/roofing-layer/index.html">Service Details 02</a></li>
 </ul>
 </li>
-<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="../../blog/https://calhascuritiba.com.br">Blog</a>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="../../blog/index.html">Blog</a>
 <ul class="sub-menu">
-	<li id="menu-item-1155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155"><a href="../../blog/https://calhascuritiba.com.br">Blog &#8211; Left Sidebar</a></li>
-	<li id="menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-548"><a href="../../blog-2/https://calhascuritiba.com.br">Blog &#8211; Right Sidebar</a></li>
-	<li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-549"><a href="../../10-reason-why-roofing-are-factmake-easier-4/https://calhascuritiba.com.br">Blog &#8211; Single Post</a></li>
+	<li id="menu-item-1155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155"><a href="../../blog/index.html">Blog &#8211; Left Sidebar</a></li>
+	<li id="menu-item-548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-548"><a href="../../blog-2/index.html">Blog &#8211; Right Sidebar</a></li>
+	<li id="menu-item-549" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-549"><a href="../../10-reason-why-roofing-are-factmake-easier-4/index.html">Blog &#8211; Single Post</a></li>
 </ul>
 </li>
-<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="../../contato">Contact</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="../../contact/index.html">Contact</a></li>
 </ul></nav>        </div>
     </div>
 
@@ -813,8 +815,8 @@ var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/demo\/wordpress\/themes\
    <div class="offcanvas-content">
         <div class="offcanvas-content-wrp">
             <div class="sidebar-about">
-               <a class="dark-logo" href="../../https://calhascuritiba.com.br">
-                  <img width="489" height="121" alt="Calheiros em Curitiba" src="../../wp-content/themes/roofix/assets/img/logo-dark-2x.png">                </a>
+               <a class="dark-logo" href="../../index.html">
+                  <img width="489" height="121" alt="Roofix - Roofing Company WordPress Theme" src="../../wp-content/themes/roofix/assets/img/logo-dark-2x.png">                </a>
             </div>
 
                <h3 class="sub-off-title">About Us </h3>
@@ -828,19 +830,19 @@ New York 2021</span>
 
                                      <h3 class="sub-off-title">Follow Us</h3>
                  <div class="social-icon-off">
-                                            <a target="_blank" href="../../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../../index.html">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                                            <a target="_blank" href="../../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../../index.html">
                             <i class="fab fa-twitter"></i>
                         </a>
-                                            <a target="_blank" href="../../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../../index.html">
                             <i class="fab fa-youtube"></i>
                         </a>
-                                            <a target="_blank" href="../../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../../index.html">
                             <i class="fab fa-pinterest"></i>
                         </a>
-                                            <a target="_blank" href="../../https://calhascuritiba.com.br">
+                                            <a target="_blank" href="../../index.html">
                             <i class="fab fa-instagram"></i>
                         </a>
                                     </div>
@@ -855,112 +857,112 @@ New York 2021</span>
     <div class="row no-gutters d-flex align-items-center">
       <div class="col-sm-2">
         <div class="site-branding logo-selector">
-          <a class="dark-logo" href="../../https://calhascuritiba.com.br">
-            <img width="489" height="121" alt="Calheiros em Curitiba" src="../../wp-content/themes/roofix/assets/img/logo-dark.png">          </a>
-          <a class="light-logo" href="../../https://calhascuritiba.com.br">
-            <img loading="lazy" width="489" height="121" alt="Calheiros em Curitiba" src="../../wp-content/themes/roofix/assets/img/logo-light.png">          </a>
+          <a class="dark-logo" href="../../index.html">
+            <img width="489" height="121" alt="Roofix - Roofing Company WordPress Theme" src="../../wp-content/themes/roofix/assets/img/logo-dark.png">          </a>
+          <a class="light-logo" href="../../index.html">
+            <img loading="lazy" width="489" height="121" alt="Roofix - Roofing Company WordPress Theme" src="../../wp-content/themes/roofix/assets/img/logo-light.png">          </a>
         </div>
       </div>
       <div class="col-sm-7">
         <div id="site-navigation" class="main-navigation">
-          <nav class="menu-main-primary-container"><ul id="menu-main-primary-1" class="menu"><li class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-26"><a href="../../https://calhascuritiba.com.br">Home</a>
+          <nav class="menu-main-primary-container"><ul id="menu-main-primary-1" class="menu"><li class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-26"><a href="../../index.html">Home</a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3910"><a href="#">Multipage</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="../../https://calhascuritiba.com.br">Home 01</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="../../home2/https://calhascuritiba.com.br">Home 02</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3162"><a href="../../home3/https://calhascuritiba.com.br">Home 03</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="../../home4/https://calhascuritiba.com.br">Home 04</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3913"><a href="../../home5/https://calhascuritiba.com.br">Home 05</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href="../../home6/https://calhascuritiba.com.br">Home 06</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4257"><a href="../../home7/https://calhascuritiba.com.br">Home 07</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="../../index.html">Home 01</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="../../home2/index.html">Home 02</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3162"><a href="../../home3/index.html">Home 03</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3437"><a href="../../home4/index.html">Home 04</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3913"><a href="../../home5/index.html">Home 05</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"><a href="../../home6/index.html">Home 06</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4257"><a href="../../home7/index.html">Home 07</a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3911"><a href="#">Onepage</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3503"><a href="../../home-1-one-page/https://calhascuritiba.com.br">Home 1 (One Page)</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="../../home-2-one-page/https://calhascuritiba.com.br">Home 2 (One Page)</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="../../home-3-one-page/https://calhascuritiba.com.br">Home 3 (One Page)</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="../../home-4-one-page/https://calhascuritiba.com.br">Home 4 (One Page)</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3912"><a href="../../home-5-one-page/https://calhascuritiba.com.br">Home 5 (One Page)</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4155"><a href="../../home-6-one-page/https://calhascuritiba.com.br">Home 6 (One Page)</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4256"><a href="../../home-7-one-page/https://calhascuritiba.com.br">Home 7 (One Page)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3503"><a href="../../home-1-one-page/index.html">Home 1 (One Page)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3502"><a href="../../home-2-one-page/index.html">Home 2 (One Page)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3501"><a href="../../home-3-one-page/index.html">Home 3 (One Page)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3500"><a href="../../home-4-one-page/index.html">Home 4 (One Page)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3912"><a href="../../home-5-one-page/index.html">Home 5 (One Page)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4155"><a href="../../home-6-one-page/index.html">Home 6 (One Page)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4256"><a href="../../home-7-one-page/index.html">Home 7 (One Page)</a></li>
 	</ul>
 </li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="../../about/https://calhascuritiba.com.br">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-726"><a href="../../about/index.html">About</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-727"><a href="#">Pages</a>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="../../faq/https://calhascuritiba.com.br">Faq</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4009"><a href="../../rt-slider/https://calhascuritiba.com.br">RT Slider</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-725"><a href="../../faq/index.html">Faq</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4009"><a href="../../rt-slider/index.html">RT Slider</a></li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3360"><a href="#">Shop</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3363"><a href="../../shop/https://calhascuritiba.com.br">Shop</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3362"><a href="../../cart/https://calhascuritiba.com.br">Cart</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3361"><a href="../../checkout/https://calhascuritiba.com.br">Checkout</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3364"><a href="../roof-damage-repair-2/https://calhascuritiba.com.br">Single Product</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-3363"><a href="../../shop/index.html">Shop</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3362"><a href="../../cart/index.html">Cart</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3361"><a href="../../checkout/index.html">Checkout</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3364"><a href="../roof-damage-repair-2/index.html">Single Product</a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3353"><a href="#">Info Box</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3359"><a href="../../info-box-1/https://calhascuritiba.com.br">Info Box 01</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3358"><a href="../../info-box-2/https://calhascuritiba.com.br">Info Box 02</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3357"><a href="../../info-box-3/https://calhascuritiba.com.br">Info Box 03</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3998"><a href="../../info-box-4/https://calhascuritiba.com.br">Info Box 04</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3359"><a href="../../info-box-1/index.html">Info Box 01</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3358"><a href="../../info-box-2/index.html">Info Box 02</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3357"><a href="../../info-box-3/index.html">Info Box 03</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3998"><a href="../../info-box-4/index.html">Info Box 04</a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3298"><a href="#">Team Layout</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536"><a href="../../team-layout-1/https://calhascuritiba.com.br">Team Layout 01</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296"><a href="../../team-layout-2/https://calhascuritiba.com.br">Team Layout 02</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3980"><a href="../../team-layout-3/https://calhascuritiba.com.br">Team Layout 03</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-roofix_team menu-item-544"><a href="../../team/mark-rocket/https://calhascuritiba.com.br">Team Single</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-536"><a href="../../team-layout-1/index.html">Team Layout 01</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3296"><a href="../../team-layout-2/index.html">Team Layout 02</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3980"><a href="../../team-layout-3/index.html">Team Layout 03</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-roofix_team menu-item-544"><a href="../../team/mark-rocket/index.html">Team Single</a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3297"><a href="#">Project Layout</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="../../projects1/https://calhascuritiba.com.br">Project Layout 01</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"><a href="../../projects-2/https://calhascuritiba.com.br">Project Layout 02</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3295"><a href="../../projects-3/https://calhascuritiba.com.br">Project Layout 03</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3294"><a href="../../projects-4/https://calhascuritiba.com.br">Project Layout  04</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3992"><a href="../../projects-5/https://calhascuritiba.com.br">Project Layout  05</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-518"><a href="../../projects/roof-construction-9/https://calhascuritiba.com.br">Project Single 01</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-519"><a href="../../projects/roof-construction-11/https://calhascuritiba.com.br">Project Single 02</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="../../projects1/index.html">Project Layout 01</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"><a href="../../projects-2/index.html">Project Layout 02</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3295"><a href="../../projects-3/index.html">Project Layout 03</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3294"><a href="../../projects-4/index.html">Project Layout  04</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3992"><a href="../../projects-5/index.html">Project Layout  05</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-518"><a href="../../projects/roof-construction-9/index.html">Project Single 01</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-roofix_projects menu-item-519"><a href="../../projects/roof-construction-11/index.html">Project Single 02</a></li>
 	</ul>
 </li>
 	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3352"><a href="#">Testimonial</a>
 	<ul class="sub-menu">
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3356"><a href="../../testimonial-1/https://calhascuritiba.com.br">Testimonial 01</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3355"><a href="../../testimonial-2/https://calhascuritiba.com.br">Testimonial 02</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3354"><a href="../../testimonial-3/https://calhascuritiba.com.br">Testimonial 03</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3949"><a href="../../testimonial-4/https://calhascuritiba.com.br">Testimonial 04</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3948"><a href="../../testimonial-5/https://calhascuritiba.com.br">Testimonial 05</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3356"><a href="../../testimonial-1/index.html">Testimonial 01</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3355"><a href="../../testimonial-2/index.html">Testimonial 02</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3354"><a href="../../testimonial-3/index.html">Testimonial 03</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3949"><a href="../../testimonial-4/index.html">Testimonial 04</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3948"><a href="../../testimonial-5/index.html">Testimonial 05</a></li>
 	</ul>
 </li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-458"><a href="#">Services</a>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473"><a href="../../services-one/https://calhascuritiba.com.br">Services 01</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="../../services-2/https://calhascuritiba.com.br">Services 02</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-481"><a href="../../services/siding-corner-8/https://calhascuritiba.com.br">Service Details 01</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-482"><a href="../../reparo-de-calhas-em-curitiba">Service Details 02</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473"><a href="../../services-one/index.html">Services 01</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="../../services-2/index.html">Services 02</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-481"><a href="../../services/siding-corner-8/index.html">Service Details 01</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-482"><a href="../../services/roofing-layer/index.html">Service Details 02</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="../../blog/https://calhascuritiba.com.br">Blog</a>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="../../blog/index.html">Blog</a>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155"><a href="../../blog/https://calhascuritiba.com.br">Blog &#8211; Left Sidebar</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-548"><a href="../../blog-2/https://calhascuritiba.com.br">Blog &#8211; Right Sidebar</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-549"><a href="../../10-reason-why-roofing-are-factmake-easier-4/https://calhascuritiba.com.br">Blog &#8211; Single Post</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155"><a href="../../blog/index.html">Blog &#8211; Left Sidebar</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-548"><a href="../../blog-2/index.html">Blog &#8211; Right Sidebar</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-549"><a href="../../10-reason-why-roofing-are-factmake-easier-4/index.html">Blog &#8211; Single Post</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="../../contato">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="../../contact/index.html">Contact</a></li>
 </ul></nav>        </div>
       </div>
                   <div class="col-lg-3 col-md-3 d-none d-lg-block menu-1v2">
                         <div class="cart-icon-area">
-	<a href="../../cart/https://calhascuritiba.com.br" ><i class="fas fa-shopping-cart" aria-hidden="true"></i><span class="cart-icon-num">34</span></a>
+	<a href="../../cart/index.html" ><i class="fas fa-shopping-cart" aria-hidden="true"></i><span class="cart-icon-num">34</span></a>
 	<div class="cart-icon-products">
 		<div class="widget woocommerce widget_shopping_cart"><h2 class="widgettitle">Cart</h2><div class="widget_shopping_cart_content"></div></div>	</div>
 </div>
@@ -995,7 +997,7 @@ New York 2021</span>
 				<div class="entry-banner-content breadcrumbs-area">
 					<h1 class="entry-title">Roof Cornering</h1>					
 											<div class="breadcrumb-area"><div class="entry-breadcrumb"><!-- Breadcrumb NavXT 7.2.0 -->
-<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Calheiros em Curitiba." href="https://radiustheme.com/demo/wordpress/themes/roofix" class="home" ><span property="name">Calheiros em Curitiba</span></a><meta property="position" content="1"></span><span class="dvdr"> - </span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Products." href="../../shop/https://calhascuritiba.com.br" class="archive post-product-archive" ><span property="name">Products</span></a><meta property="position" content="2"></span><span class="dvdr"> - </span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Roofing Category archives." href="../../product-category/roofing/https://calhascuritiba.com.br" class="taxonomy product_cat" ><span property="name">Roofing</span></a><meta property="position" content="3"></span><span class="dvdr"> - </span><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-product current-item">Roof Cornering</span><meta property="url" content="https://radiustheme.com/demo/wordpress/themes/roofix/product/roof-cornering/"><meta property="position" content="4"></span></div></div>										
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Roofix - Roofing Company WordPress Theme." href="https://radiustheme.com/demo/wordpress/themes/roofix" class="home" ><span property="name">Roofix - Roofing Company WordPress Theme</span></a><meta property="position" content="1"></span><span class="dvdr"> - </span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Products." href="../../shop/index.html" class="archive post-product-archive" ><span property="name">Products</span></a><meta property="position" content="2"></span><span class="dvdr"> - </span><span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Roofing Category archives." href="../../product-category/roofing/index.html" class="taxonomy product_cat" ><span property="name">Roofing</span></a><meta property="position" content="3"></span><span class="dvdr"> - </span><span property="itemListElement" typeof="ListItem"><span property="name" class="post post-product current-item">Roof Cornering</span><meta property="url" content="https://radiustheme.com/demo/wordpress/themes/roofix/product/roof-cornering/"><meta property="position" content="4"></span></div></div>										
 				</div>
 			</div>
 		</div>
@@ -1013,7 +1015,7 @@ New York 2021</span>
 			<path d="M16.7 7.1l-6.3 8.5-3.3-2.5-.9 1.2 4.5 3.4L17.9 8z"></path>
 		</svg>
 		<div class="wc-block-components-notice-banner__content">
-			<a href="../../cart/https://calhascuritiba.com.br" tabindex="1" class="button wc-forward">View cart</a> &ldquo;Roof Cornering&rdquo; has been added to your cart.		</div>
+			<a href="../../cart/index.html" tabindex="1" class="button wc-forward">View cart</a> &ldquo;Roof Cornering&rdquo; has been added to your cart.		</div>
 	</div>
 </div><div id="product-3256" class="product type-product post-3256 status-publish first instock product_cat-roofing has-post-thumbnail shipping-taxable purchasable product-type-simple">
 	<div class="single-product-top-1">
@@ -1151,7 +1153,7 @@ Add To Compare</span>
 			<div id="review_form_wrapper">
 			<div id="review_form">
 					<div id="respond" class="comment-respond">
-		<span id="reply-title" class="comment-reply-title">Be the first to review &ldquo;Roof Cornering&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="indexd16d.html?add-to-cart=3260#respond" style="display:none;">Cancel reply</a></small></span><p class="must-log-in">You must be <a href="../../my-account/https://calhascuritiba.com.br">logged in</a> to post a review.</p>	</div><!-- #respond -->
+		<span id="reply-title" class="comment-reply-title">Be the first to review &ldquo;Roof Cornering&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="indexd16d.html?add-to-cart=3260#respond" style="display:none;">Cancel reply</a></small></span><p class="must-log-in">You must be <a href="../../my-account/index.html">logged in</a> to post a review.</p>	</div><!-- #respond -->
 				</div>
 		</div>
 	
@@ -1179,7 +1181,7 @@ Add To Compare</span>
 				<div class="rtin-buttons-area">
 			<div class="rtin-buttons">
 				<div class="btn-icons">					
-				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/https://calhascuritiba.com.br" data-quantity="1" data-product_id="3267" data-product_sku="13"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
+				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/index.html" data-quantity="1" data-product_id="3267" data-product_sku="13"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
 <a class="rtsb-wishlist-btn tipsy rtsb-wishlist-add" rel="nofollow"
    data-product_id="3267"
    title="Add to wishlist"
@@ -1211,7 +1213,7 @@ Add To Compare</span>
 	</div>
 	<div class="price-title-box">
 		<div class="rtin-title-area">
-			<h3 class="rtin-title"><a href="../roof-block-design/https://calhascuritiba.com.br">Roof Block Design</a></h3>
+			<h3 class="rtin-title"><a href="../roof-block-design/index.html">Roof Block Design</a></h3>
 		</div>
 		<div class="rtin-price-area">
 							<div class="rtin-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>30.00</span></div>
@@ -1230,7 +1232,7 @@ Add To Compare</span>
 				<div class="rtin-buttons-area">
 			<div class="rtin-buttons">
 				<div class="btn-icons">					
-				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/https://calhascuritiba.com.br" data-quantity="1" data-product_id="3257" data-product_sku="06"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
+				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/index.html" data-quantity="1" data-product_id="3257" data-product_sku="06"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
 <a class="rtsb-wishlist-btn tipsy rtsb-wishlist-add" rel="nofollow"
    data-product_id="3257"
    title="Add to wishlist"
@@ -1262,7 +1264,7 @@ Add To Compare</span>
 	</div>
 	<div class="price-title-box">
 		<div class="rtin-title-area">
-			<h3 class="rtin-title"><a href="../roof-layer-fixing/https://calhascuritiba.com.br">Roof Layer Fixing</a></h3>
+			<h3 class="rtin-title"><a href="../roof-layer-fixing/index.html">Roof Layer Fixing</a></h3>
 		</div>
 		<div class="rtin-price-area">
 							<div class="rtin-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>22.00</span></div>
@@ -1281,7 +1283,7 @@ Add To Compare</span>
 				<div class="rtin-buttons-area">
 			<div class="rtin-buttons">
 				<div class="btn-icons">					
-				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/https://calhascuritiba.com.br" data-quantity="1" data-product_id="3253" data-product_sku="03"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
+				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/index.html" data-quantity="1" data-product_id="3253" data-product_sku="03"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
 <a class="rtsb-wishlist-btn tipsy rtsb-wishlist-add" rel="nofollow"
    data-product_id="3253"
    title="Add to wishlist"
@@ -1313,7 +1315,7 @@ Add To Compare</span>
 	</div>
 	<div class="price-title-box">
 		<div class="rtin-title-area">
-			<h3 class="rtin-title"><a href="../roof-frame-design/https://calhascuritiba.com.br">Roof Frame Design</a></h3>
+			<h3 class="rtin-title"><a href="../roof-frame-design/index.html">Roof Frame Design</a></h3>
 		</div>
 		<div class="rtin-price-area">
 							<div class="rtin-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>20.00</span></div>
@@ -1332,7 +1334,7 @@ Add To Compare</span>
 				<div class="rtin-buttons-area">
 			<div class="rtin-buttons">
 				<div class="btn-icons">					
-				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/https://calhascuritiba.com.br" data-quantity="1" data-product_id="3258" data-product_sku="07"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
+				<div class="btn-title"><a rel="nofollow" title="Add to cart" href="../../cart/index.html" data-quantity="1" data-product_id="3258" data-product_sku="07"><i class="fas fa-check"></i><span>Already cart</span></a></div>					
 <a class="rtsb-wishlist-btn tipsy rtsb-wishlist-add" rel="nofollow"
    data-product_id="3258"
    title="Add to wishlist"
@@ -1364,7 +1366,7 @@ Add To Compare</span>
 	</div>
 	<div class="price-title-box">
 		<div class="rtin-title-area">
-			<h3 class="rtin-title"><a href="../roof-installation-2/https://calhascuritiba.com.br">Roof Installation</a></h3>
+			<h3 class="rtin-title"><a href="../roof-installation-2/index.html">Roof Installation</a></h3>
 		</div>
 		<div class="rtin-price-area">
 							<div class="rtin-price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>10.00</span></div>
@@ -1392,7 +1394,7 @@ Add To Compare</span>
 	        <div class="container">
 				<div class="row d-flex align-items-center footer-logo-wrp">
 					<div class="col-lg-4 col-md-6">
-						<a class="footer-logo" href="../../https://calhascuritiba.com.br">
+						<a class="footer-logo" href="../../index.html">
 						<img loading="lazy" width="489" height="121" src="../../wp-content/uploads/2021/01/footer-logo.png" class="attachment-full size-full" alt="" />						</a>	
 					</div>
 					<div class="col-lg-4 col-md-6 ">
@@ -1411,27 +1413,27 @@ Add To Compare</span>
 						<div class="footer-social">
 						    <ul>					    	
 																	<li>
-										<a target="_blank" href="../../https://calhascuritiba.com.br">
+										<a target="_blank" href="../../index.html">
 											<i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../../https://calhascuritiba.com.br">
+										<a target="_blank" href="../../index.html">
 											<i class="fab fa-twitter"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../../https://calhascuritiba.com.br">
+										<a target="_blank" href="../../index.html">
 											<i class="fab fa-youtube"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../../https://calhascuritiba.com.br">
+										<a target="_blank" href="../../index.html">
 											<i class="fab fa-pinterest"></i>
 										</a>
 									</li>
 																	<li>
-										<a target="_blank" href="../../https://calhascuritiba.com.br">
+										<a target="_blank" href="../../index.html">
 											<i class="fab fa-instagram"></i>
 										</a>
 									</li>
@@ -1447,12 +1449,12 @@ Add To Compare</span>
 	              <div class="row">
 											
 						<div class="col-lg-4 col-md-4 active_footer">
-							<div id="nav_menu-3" class="widgets footer-box-layout1 widget_nav_menu"><div class="footer-title"><h3 class="widget-title ">Our Services</h3></div><div class="menu-our-services-container"><ul id="menu-our-services" class="menu"><li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-428"><a href="../../services/damage-roofing/https://calhascuritiba.com.br">Damage Roofing</a></li>
-<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-423"><a href="../../cantoneiras-em-curitiba">Cantoneiras</a></li>
-<li id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-425"><a href="../../calhas-em-curitiba">Roof Repair</a></li>
-<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-426"><a href="../../services/roof-installation/https://calhascuritiba.com.br">Roof Installation</a></li>
-<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-427"><a href="../../reparo-de-calhas-em-curitiba">Roof Renovation</a></li>
-<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-430"><a href="../../services/roof-animation/https://calhascuritiba.com.br">Roof Animation</a></li>
+							<div id="nav_menu-3" class="widgets footer-box-layout1 widget_nav_menu"><div class="footer-title"><h3 class="widget-title ">Our Services</h3></div><div class="menu-our-services-container"><ul id="menu-our-services" class="menu"><li id="menu-item-428" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-428"><a href="../../services/damage-roofing/index.html">Damage Roofing</a></li>
+<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-423"><a href="../../services/siding-corner-8/index.html">Siding Corner</a></li>
+<li id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-425"><a href="../../services/roof-repair/index.html">Roof Repair</a></li>
+<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-426"><a href="../../services/roof-installation/index.html">Roof Installation</a></li>
+<li id="menu-item-427" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-427"><a href="../../services/roof-renovation/index.html">Roof Renovation</a></li>
+<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-roofix_services menu-item-430"><a href="../../services/roof-animation/index.html">Roof Animation</a></li>
 </ul></div></div>						</div>
 						<div class="col-lg-5 col-md-4 active_footer">
 							<div id="mc4wp_form_widget-3" class="widgets footer-box-layout1 widget_mc4wp_form_widget"><div class="footer-title"><h3 class="widget-title ">Newsletter</h3></div><script>(function() {
@@ -1577,7 +1579,7 @@ const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
 for (let j = 0; j < urlFields.length; j++) {
   urlFields[j].addEventListener('blur', maybePrefixUrlField)
 }
-})();</script><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/product\/roof-cornering\/#product","name":"Roof Cornering","url":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/product\/roof-cornering\/","description":"Pellentesque habitant morbi tristique senectustty netus et malesuada areay fames ac turpis egestas aeeartibulum tortor quam feugiatunknown it to make. Pellentesque habitant morbi tristique senectustty netus et malesuada.","image":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/wp-content\/uploads\/2021\/02\/product9.png","sku":"05","offers":[{"@type":"Offer","price":"18.00","priceValidUntil":"2025-12-31","priceSpecification":{"price":"18.00","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/product\/roof-cornering\/","seller":{"@type":"Organization","name":"Calheiros em Curitiba","url":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix"}}]}</script>
+})();</script><script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/product\/roof-cornering\/#product","name":"Roof Cornering","url":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/product\/roof-cornering\/","description":"Pellentesque habitant morbi tristique senectustty netus et malesuada areay fames ac turpis egestas aeeartibulum tortor quam feugiatunknown it to make. Pellentesque habitant morbi tristique senectustty netus et malesuada.","image":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/wp-content\/uploads\/2021\/02\/product9.png","sku":"05","offers":[{"@type":"Offer","price":"18.00","priceValidUntil":"2025-12-31","priceSpecification":{"price":"18.00","priceCurrency":"USD","valueAddedTaxIncluded":"false"},"priceCurrency":"USD","availability":"http:\/\/schema.org\/InStock","url":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix\/product\/roof-cornering\/","seller":{"@type":"Organization","name":"Roofix - Roofing Company WordPress Theme","url":"https:\/\/radiustheme.com\/demo\/wordpress\/themes\/roofix"}}]}</script>
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="pswp__bg"></div>
 	<div class="pswp__scroll-wrap">
@@ -1674,7 +1676,7 @@ window.lodash = _.noConflict();
 <script type="text/javascript" src="../../wp-includes/js/dist/api-fetch.min471f.js?ver=0fa4dabf8bf2c7adf21a" id="wp-api-fetch-js"></script>
 <script type="text/javascript" id="wp-api-fetch-js-after">
 /* <![CDATA[ */
-wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "../../wp-json/https://calhascuritiba.com.br" ) );
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "../../wp-json/index.html" ) );
 wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "8999bd30bf" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
